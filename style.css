@@ -1,13 +1,66 @@
-.slider-container {
-    margin: 20px;
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ffcccc;
 }
 
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1, .slider-group h2 {
+    font-size: 24px; /* Adjust size as needed */
+}
+
+.slider-group h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.left-column img {
+    max-width: 200px;
+    height: auto;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+
 .slider {
-    width: 100%;
+    width: 500px; /* Adjust width as needed */
+    margin: 10px 0;
 }
 
 #wordDisplay {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
-    font-weight: bold;
 }
+
+.pistons-logo {
+    text-align: center; /* Center the logo */
+    margin: 20px 0; /* Add some space around the logo */
+}
+
+.pistons-logo img {
+    max-width: 100px; /* Adjust the size of the logo */
+    height: auto;
+}
+
